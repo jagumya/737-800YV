@@ -14,6 +14,9 @@ Note: Split-Scimitar Winglets are currently unsupported, and the wind sound is t
 This aircraft was modified and updated in a joint effort by the following people:
 
 FDM: Joshua Davidson (it0uchpods), Gabriel Hernandez (YV3399)
+
 Systems: Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp), Gabriel Hernandez (YV3399)
+
 Cockpit: Gabriel Hernandez (YV3399), Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp)
+
 Instruments: Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp), Gabriel Hernandez (YV3399), RenanMsV (BR-RVD)
