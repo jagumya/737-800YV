@@ -8,7 +8,7 @@ Download and unzip this folder in your aircraft folder.
 
 Rename the file from '737-800-main' to '737-800YV'
 
-Note: Split-Scimitar Winglets are currently unsupported
+Note: Split-Scimitar Winglets are currently unsupported, and the wind sound is too loud.
 
 # Contributors
 This aircraft was modified and updated in a joint effort by the following people:
