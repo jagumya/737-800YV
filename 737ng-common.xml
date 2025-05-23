@@ -31,7 +31,7 @@
 
 		</previews>
 
-		<systems>
+<systems>
 			<!-- Disable the generic electrical system -->
 			<electrical>
 				<path></path>
@@ -84,6 +84,11 @@
 			<property-rule n="101">
 			<path>Aircraft/737-800YV/Systems/instrument-filters.xml</path>
 			</property-rule>
+			<wingflexer include="Systems/wingflexer-params.xml" />
+            <autopilot>
+                <name>wing flexer property rule</name>
+                <path>Aircraft/Generic/wingflexer.xml</path>
+            </autopilot>
 		</systems>
 
 		<instrumentation>
