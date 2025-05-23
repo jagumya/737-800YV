@@ -561,22 +561,17 @@
         <max-dist>500.0</max-dist>
     </engine>
 
-	        <rumble>
-			<name>rumble</name>
-			<path>Aircraft/737-800YV/Sounds/rumble.wav</path>
-			<mode>looped</mode>
-			<condition>
-				<property>sim/current-view/internal</property>
-				<or>
-					<property>/gear/gear[0]/wow</property>
-					<property>/gear/gear[1]/wow</property>
-					<property>/gear/gear[2]/wow</property>
-				</or>
-			</condition>
-			<volume>
+        <rumblefront>
+            <name>nose wheel rumble</name>
+            <mode>looped</mode>
+            <path>Sounds/rumble.wav</path>
+            <condition>
+                <property>/gear/gear[0]/wow</property>
+            </condition>
+            <volume>
 				<property>/velocities/groundspeed-kt</property>
 				<type>log</type>
-				<factor>0.20</factor>
+				<factor>0.30</factor>
 			</volume>
 			<pitch>
 				<property>/velocities/groundspeed-kt</property>
@@ -585,7 +580,45 @@
 				<min>0.1</min>
 				<max>1.5</max>
 			</pitch>
-		</rumble>
+            <position>
+                <x>-22</x>
+                <y>0</y>
+                <z>-5</z>
+            </position>
+            <reference-dist>10.0</reference-dist>
+            <max-dist>25.0</max-dist>
+        </rumblefront>
+
+        <rumblemain>
+            <name>main gear rumble</name>
+            <mode>looped</mode>
+            <path>Sounds/rumble.wav</path>
+            <condition>
+                <or>
+                    <property>/gear/gear[1]/wow</property>
+                    <property>/gear/gear[2]/wow</property>
+                </or>
+            </condition>
+           <volume>
+				<property>/velocities/groundspeed-kt</property>
+				<type>log</type>
+				<factor>0.30</factor>
+			</volume>
+			<pitch>
+				<property>/velocities/groundspeed-kt</property>
+				<type>log</type>
+				<factor>0.28</factor>
+				<min>0.1</min>
+				<max>1.5</max>
+			</pitch>
+            <position>
+                <x>-6.5</x>
+                <y>0</y>
+                <z>-5</z>
+            </position>
+            <reference-dist>10.0</reference-dist>
+            <max-dist>25.0</max-dist>
+        </rumblemain>
 
 		
 		<flap>
@@ -1265,37 +1298,37 @@
     	<max-dist>20.0</max-dist>
     </cockpitdoor>
 
-   <wind>
-        <name>wind</name>
-        <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/Wind.wav</path>
-        <property>/velocities/airspeed-kt</property>
-        <volume>
-            <property>/position/altitude-ft</property>
-            <factor>-0.000015</factor>
-            <offset>1.0</offset>
-            <min>0.1</min>
-            <max>1.0</max>
-        </volume>
-        <volume>
+        <wind>
+            <name>wind</name>
+            <mode>looped</mode>
+            <path>Sounds/wind.wav</path>
             <property>/velocities/airspeed-kt</property>
-            <factor>0.0030</factor>
-            <min>0.03</min>
-            <max>0.50</max>
-        </volume>
-        <pitch>
-            <property>/velocities/airspeed-kt</property>
-            <factor>0.01</factor>
-            <offset>1.25</offset>
-        </pitch>
-        <position>
-            <x>-24</x>
-            <y>0</y>
-            <z>0.86</z>
-        </position>
-        <reference-dist>1.0</reference-dist>
-        <max-dist>2.0</max-dist>
-    </wind>
+            <volume>
+                <property>/position/altitude-ft</property>
+                <factor>-0.000015</factor>
+                <offset>1.0</offset>
+                <min>0.1</min>
+                <max>1.0</max>
+            </volume>
+            <volume>
+                <property>/velocities/airspeed-kt</property>
+                <factor>0.0015</factor>
+                <min>0.03</min>
+                <max>0.25</max>
+            </volume>
+            <pitch>
+                <property>/velocities/airspeed-kt</property>
+                <factor>0.01</factor>
+                <offset>1.25</offset>
+            </pitch>
+            <position>
+                <x>-24</x>
+                <y>0</y>
+                <z>0.86</z>
+            </position>
+            <reference-dist>50.0</reference-dist>
+            <max-dist>6000.0</max-dist>
+        </wind>
 
     </fx>
     
