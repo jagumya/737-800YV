@@ -62,5 +62,57 @@
         <max>1.5</max>
     </animation>
 
+<light>
+  <name>my-spotlightLL</name>
+  <type>spot</type>
+  <position>
+    <x-m>-7.7476</x-m>
+    <y-m>0</y-m>
+    <z-m>-1.7990</z-m>
+  </position>
+  <direction>
+    <x>-1.0</x>
+    <y>0</y>
+    <z>-0.013</z>
+  </direction>
+  <ambient>
+    <r>2</r>
+    <g>2</g>
+    <b>2</b>
+    <a>1</a>
+  </ambient>
+  <diffuse>
+    <r>1</r>
+    <g>1</g>
+    <b>1</b>
+    <a>1</a>
+  </diffuse>
+  <specular>
+    <r>0.95</r>
+    <g>0.9</g>
+    <b>0.9</b>
+    <a>1</a>
+  </specular>
+  <attenuation>
+    <c>1.0</c>
+    <l>0.09</l>
+    <q>0.032</q>
+  </attenuation>
+  <pitch-deg>90</pitch-deg>
+<roll-deg>0</roll-deg>
+<heading-deg>0</heading-deg>
+  <pitch-deg>-90</pitch-deg>
+<roll-deg>0</roll-deg>
+<heading-deg>-20</heading-deg>
+  <pitch-deg>-90</pitch-deg>
+<roll-deg>0</roll-deg>
+<heading-deg>20</heading-deg>
+  <spot-exponent>20</spot-exponent>
+  <spot-cutoff>40</spot-cutoff>
+  <range-m>50</range-m>
+  <dim-factor>
+    <property>controls/lighting/instruments-norm</property>
+  </dim-factor>
+</light>
 
 </PropertyList>

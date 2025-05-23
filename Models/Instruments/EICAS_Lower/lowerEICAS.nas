@@ -1,6 +1,6 @@
 ################################
 # Lower EICAS                  #
-# Josh Davidson (Octal450) #
+# Joshua Davidson (it0uchpods) #
 ################################
 
 var lowerEICAS_canvas = nil;

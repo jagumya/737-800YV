@@ -36,6 +36,37 @@
    </entry>
   </interpolation>
  </animation>
+ 
+ <model>
+		<name>green-navlight</name>
+		<path>Aircraft/Generic/spotlight.xml</path>
+		<overlay>
+			<params>
+				<name>GreenLight</name>
+				<direction>
+					<x>1.0</x>
+					<y>-0.97629600712</y>
+					<z>0</z>
+				</direction>
+				<ambient>
+					<r>0</r>
+					<g>1</g>
+					<b>0</b>
+				</ambient>
+				<specular>
+					<r>0.7</r>
+					<g>1.0</g>
+					<b>0.7</b>
+				</specular>
+				<attenuation>
+					<c>1.0</c>
+					<l>0.22</l>
+					<q>0.20</q>
+				</attenuation>
+				<spot-exponent>1</spot-exponent>
+			</params>
+		</overlay>
+	</model>
 
 
 </PropertyList>

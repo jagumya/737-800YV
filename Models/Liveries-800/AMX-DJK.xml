@@ -6,7 +6,7 @@
         <livery>                     
             <name type="string">AeroMexico-DJK</name>
             <texture>/Liveries-800/AMX-DJK.png</texture> 
-			<newwinglets type="bool">true</newwinglets>		
+			<newwinglets type="bool">false</newwinglets>		
 			<nowinglets type="bool">false</nowinglets> 		
         </livery>        
     </model>
