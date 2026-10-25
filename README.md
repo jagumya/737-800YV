@@ -3,6 +3,7 @@ Boeing 737 800
 
 A very advanced simulation of the Boeing 737 800 for FlightGear.
 
+
 # Installation
 Download and unzip this folder in your aircraft folder.
 
@@ -13,6 +14,8 @@ Note: Split-Scimitar Winglets are currently unsupported, and the wind sound is t
 # Contributors
 This aircraft was modified and updated in a joint effort by the following people:
 
+Sounds and model modified by Jonathan Agumya (jagumya)
+
 FDM: Joshua Davidson (it0uchpods), Gabriel Hernandez (YV3399)
 
 Systems: Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp), Gabriel Hernandez (YV3399)
@@ -20,3 +23,7 @@ Systems: Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp), Gabriel 
 Cockpit: Gabriel Hernandez (YV3399), Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp)
 
 Instruments: Joshua Davidson (it0uchpods), Jonanthan Redpath (legoboyvdlp), Gabriel Hernandez (YV3399), RenanMsV (BR-RVD)
+
+# Bugs
+Navigation lights don't move with flexed wings. need to fix that
+Some liveries are broken with the modified model. Paintkit belongs to a very old version of the 738
